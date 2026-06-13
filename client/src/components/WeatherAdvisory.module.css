@@ -1,0 +1,40 @@
+.advisory {
+  background: rgba(59, 130, 246, 0.35);
+  backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 18px;
+  padding: 24px;
+  margin-bottom: 24px;
+  color: white;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 14px;
+}
+
+.message {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.source {
+  margin-top: 16px;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .advisory {
+    padding: 18px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .message {
+    font-size: 16px;
+  }
+}

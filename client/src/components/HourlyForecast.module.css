@@ -1,0 +1,147 @@
+.hourlyCard {
+  background: rgba(255, 255, 255, 0.13);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 32px;
+  color: white;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.summary {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.arrowButtons {
+  display: flex;
+  gap: 8px;
+}
+
+.arrowButton,
+.floatingArrow {
+  background: rgba(255, 255, 255, 0.16);
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  color: white;
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.arrowButton:hover,
+.floatingArrow:hover {
+  background: rgba(255, 255, 255, 0.28);
+  transform: translateY(-1px);
+}
+
+.hourlyWrapper {
+  position: relative;
+}
+
+.hourlyScroller {
+  display: flex;
+  gap: 18px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 4px 48px 8px 0;
+  scrollbar-width: thin;
+}
+
+.hourlyScroller::-webkit-scrollbar {
+  height: 6px;
+}
+
+.hourlyScroller::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.hourlyScroller::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 999px;
+}
+
+.hourCard {
+  min-width: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 4px;
+  flex-shrink: 0;
+}
+
+.hour {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.temp {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.rain {
+  font-size: 12px;
+  color: #bfdbfe;
+}
+
+.floatingArrow {
+  position: absolute;
+  right: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  backdrop-filter: blur(12px);
+}
+
+.floatingArrow:hover {
+  transform: translateY(-50%) scale(1.04);
+}
+
+@media (max-width: 768px) {
+  .hourlyCard {
+    padding: 16px;
+    margin-bottom: 20px;
+  }
+
+  .header {
+    align-items: flex-start;
+  }
+
+  .arrowButtons {
+    display: none;
+  }
+
+  .hourCard {
+    min-width: 64px;
+  }
+
+  .temp {
+    font-size: 20px;
+  }
+
+  .floatingArrow {
+    display: flex;
+  }
+}

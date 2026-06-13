@@ -1,0 +1,86 @@
+.videosSection {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 24px;
+  padding: 24px;
+  margin-bottom: 32px;
+  color: white;
+  backdrop-filter: blur(16px);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  margin: 0 0 6px;
+  font-size: 1.5rem;
+}
+
+.header p {
+  margin: 0;
+  opacity: 0.8;
+}
+
+.videoGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.videoCard {
+  overflow: hidden;
+  border-radius: 18px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.videoFrame {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  background: black;
+}
+
+.videoFrame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.videoContent {
+  padding: 16px;
+}
+
+.videoContent h3 {
+  margin: 0 0 8px;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.videoContent p {
+  margin: 0 0 12px;
+  opacity: 0.75;
+  font-size: 0.9rem;
+}
+
+.videoContent a {
+  color: white;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.message {
+  margin: 0;
+  opacity: 0.8;
+}
+
+.error {
+  color: #fecaca;
+  margin: 0;
+}
