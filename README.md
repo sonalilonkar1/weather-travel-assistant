@@ -312,11 +312,8 @@ Detailed forecasts are available for the next 5 days. For longer-term travel pla
 
 ## Demo Video
 
-Demo Video URL: DEMO_VIDEO_URL
+Demo Video URL: `https://drive.google.com/file/d/1UoTdRTifkA7m4mrObCi8TK7ZPSaFkYcu/view?usp=sharing`
 
-## GitHub Repository
-
-Repository URL: GITHUB_REPOSITORY_URL
 
 ## Notes
 
