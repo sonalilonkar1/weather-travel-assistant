@@ -320,4 +320,4 @@ This project is built for technical assessment and learning purposes. It demonst
 
 ## License
 
-This project is open source and available for evaluation purposes.
+This project is open source and available under the [MIT License](LICENSE).
