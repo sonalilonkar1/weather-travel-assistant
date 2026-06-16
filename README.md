@@ -8,6 +8,10 @@ Sonali Lonkar
 AI Engineer Intern Technical Assessment  
 Completed: Full Stack Engineer - Tech Assignment #1 and Tech Assignment #2
 
+## Demo Video
+
+[Watch the project demo video](https://drive.google.com/file/d/1UoTdRTifkA7m4mrObCi8TK7ZPSaFkYcu/view?usp=sharing)
+
 ## Project Overview
 
 The Full-Stack Weather Travel Assistant is a web application that helps users check current and short-term weather conditions for a travel destination. Users can search by city, ZIP code, landmark, coordinates, or current browser location. The app displays current weather, hourly forecast, a 5-day forecast, weather advisories, travel tips, saved request history, and export options.
@@ -20,7 +24,7 @@ The project demonstrates full-stack development using a React frontend, a FastAP
 By making industry-leading tools and education available to individuals from all backgrounds, we level the playing field for future PM leaders. This is the PM Accelerator motto, as we grant aspiring and experienced PMs what they need most – Access. 
 We introduce you to industry leaders, surround you with the right PM ecosystem, and discover the new world of AI product management skills.
 
-More info on: `https://www.pmaccelerator.io/about-us` and `https://www.linkedin.com/school/pmaccelerator/`
+More info on: https://www.pmaccelerator.io/about-us and https://www.linkedin.com/school/pmaccelerator/
 
 ## Features
 
@@ -309,11 +313,6 @@ Invalid long-range forecast message:
 ```txt
 Detailed forecasts are available for the next 5 days. For longer-term travel planning, please check closer to your trip date.
 ```
-
-## Demo Video
-
-Demo Video URL: `https://drive.google.com/file/d/1UoTdRTifkA7m4mrObCi8TK7ZPSaFkYcu/view?usp=sharing`
-
 
 ## Notes
 
