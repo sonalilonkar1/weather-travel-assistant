@@ -16,9 +16,11 @@ The project demonstrates full-stack development using a React frontend, a FastAP
 
 ## About Product Manager Accelerator
 
-Product Manager Accelerator is a learning and career-development platform focused on helping aspiring and current professionals grow in product management. The program provides product management training, mentorship, practical project experience, and community support to help candidates build industry-ready skills.
+## PM Accelerator Mission
+By making industry-leading tools and education available to individuals from all backgrounds, we level the playing field for future PM leaders. This is the PM Accelerator motto, as we grant aspiring and experienced PMs what they need most – Access. 
+We introduce you to industry leaders, surround you with the right PM ecosystem, and discover the new world of AI product management skills.
 
-LinkedIn: https://www.linkedin.com/school/pmaccelerator/
+More info on: `https://www.pmaccelerator.io/about-us` and `https://www.linkedin.com/school/pmaccelerator/`
 
 ## Features
 
